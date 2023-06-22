@@ -1,0 +1,22 @@
+orgs:
+  org-management-sandbox:
+    admins:
+      - d10n
+    billing_email: david@bitinvert.com
+    company: ""
+    default_repository_permission: read
+    description: ""
+    email: ""
+    has_organization_projects: true
+    has_repository_projects: true
+    location: ""
+    members_can_create_repositories: true
+    name: ""
+    repos:
+      .github:
+        default_branch: main
+        has_projects: true
+      .github-private:
+        has_projects: true
+        has_wiki: false
+        private: true
